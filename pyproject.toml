@@ -1,0 +1,17 @@
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q --strict-markers --strict-config"
+testpaths = [
+    "tests"
+]
+markers = [
+    "smoke: smoke test cases",
+    "regression: regression test cases",
+    "ui: UI test cases",
+    "api: API test cases"
+]
+
+[tool.allure]
+results_dir = "allure-results"
+report_dir = "allure-report"
+clean = true

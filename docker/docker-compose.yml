@@ -1,0 +1,12 @@
+version: '3.8'   # 删除 version 行也可，但保留无害
+services:
+  automation-runner:
+    build:
+      context: ..               # 项目根目录
+      dockerfile: docker/Dockerfile
+    volumes:
+      - ../allure-results:/app/allure-results
+    environment:
+      - HEADLESS=true
+      - CI=true
+    command: pytest tests/ --alluredir=allure-results --headless

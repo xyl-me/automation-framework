@@ -1,0 +1,23 @@
+import pytest
+import allure
+from pages.login_page import LoginPage
+
+@allure.feature("员工管理模块")
+@allure.story("员工增删查改")
+class TestEmployee:
+
+    @pytest.fixture
+    def logged_in_main_page(self, driver):
+        login_page = LoginPage(driver)
+        login_page.open()
+        main_page = login_page.login("Admin", "admin123")
+        yield main_page
+        main_page.logout()
+
+    @allure.title("新增员工并验证搜索结果")
+    def test_add_employee(self, logged_in_main_page):
+        employee_page = logged_in_main_page.go_to_pim()
+        unique_first = "John"
+        unique_last = f"Doe_{pytest.__version__}"  # 简单生成随机数据
+        employee_page.add_employee(unique_first, unique_last)
+        assert employee_page.search_employee_by_name(f"{unique_first} {unique_last}") is True
