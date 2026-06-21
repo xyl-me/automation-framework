@@ -1,0 +1,7 @@
+﻿id,username,firstName,lastName,email,password,phone,userStatus
+4001,boundary_email_1,正常邮箱,测试,pqin@example.com,123456,13842388496,0
+4002,boundary_email_2,无@符号,测试,testexample.com,123456,18996532871,0
+4003,boundary_email_3,多个@符号,测试,test@@example.com,123456,13301226916,0
+4004,boundary_email_4,开头特殊字符,测试,-test@example.com,123456,15997848018,0
+4005,boundary_email_5,包含空格,测试,test user@example.com,123456,13345146270,0
+4006,boundary_email_6,纯数字邮箱,测试,123456,123456,18648281489,0

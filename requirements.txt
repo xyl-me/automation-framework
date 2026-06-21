@@ -7,3 +7,4 @@ pytest-xdist==3.6.1
 pytest-rerunfailures==14.0
 pydantic==2.10.6
 pyyaml==6.0.2
+Faker

@@ -1,0 +1,6 @@
+﻿id,username,firstName,lastName,email,password,phone,age,userStatus
+1001,boundary_age_0,年龄,0岁,age_0@test.com,123456,15510433218,0,1
+1002,boundary_age_1,年龄,1岁,age_1@test.com,123456,13696001338,1,1
+1003,boundary_age_18,年龄,18岁,age_18@test.com,123456,14508386379,18,1
+1004,boundary_age_60,年龄,60岁,age_60@test.com,123456,15102654235,60,1
+1005,boundary_age_121,年龄,121岁,age_121@test.com,123456,13716155940,121,1

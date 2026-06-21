@@ -1,0 +1,6 @@
+﻿id,username,firstName,lastName,email,password,phone,userStatus
+3001,a,1位用户名,测试,username_1@test.com,123456,18959310341,0
+3002,aaaaaaaaaaaaaaaaaaaa,20位最大长度,测试,username_2@test.com,123456,18131647525,0
+3003,aaaaaaaaaaaaaaaaaaaaa,21位超限用户名,测试,username_3@test.com,123456,15834192832,0
+3004,admin@#$%,含特殊字符用户名,测试,username_4@test.com,123456,18764835030,0
+3005,test user,含空格用户名,测试,username_5@test.com,123456,15356413953,0

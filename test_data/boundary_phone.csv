@@ -1,0 +1,6 @@
+﻿id,username,firstName,lastName,email,password,phone,userStatus
+2001,boundary_phone_1,空手机号,测试,phone_1@test.com,123456,,0
+2002,boundary_phone_2,11位正常手机号,测试,phone_2@test.com,123456,18678161849,0
+2003,boundary_phone_3,12位超长手机号,测试,phone_3@test.com,123456,138123456789,0
+2004,boundary_phone_4,含字母手机号,测试,phone_4@test.com,123456,138abc45678,0
+2005,boundary_phone_5,9位过短手机号,测试,phone_5@test.com,123456,123456789,0

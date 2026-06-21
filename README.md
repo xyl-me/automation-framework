@@ -62,6 +62,6 @@ cd orangehrm-automation
 #docker-compose up --build
 
 
-
+pytest tests/ui_tests/test_login.py -v
 
 

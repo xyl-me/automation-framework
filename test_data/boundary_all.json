@@ -1,0 +1,217 @@
+[
+  {
+    "id": 1001,
+    "username": "boundary_age_0",
+    "firstName": "年龄",
+    "lastName": "0岁",
+    "email": "age_0@test.com",
+    "password": "123456",
+    "phone": "15510433218",
+    "age": 0,
+    "userStatus": 1
+  },
+  {
+    "id": 1002,
+    "username": "boundary_age_1",
+    "firstName": "年龄",
+    "lastName": "1岁",
+    "email": "age_1@test.com",
+    "password": "123456",
+    "phone": "13696001338",
+    "age": 1,
+    "userStatus": 1
+  },
+  {
+    "id": 1003,
+    "username": "boundary_age_18",
+    "firstName": "年龄",
+    "lastName": "18岁",
+    "email": "age_18@test.com",
+    "password": "123456",
+    "phone": "14508386379",
+    "age": 18,
+    "userStatus": 1
+  },
+  {
+    "id": 1004,
+    "username": "boundary_age_60",
+    "firstName": "年龄",
+    "lastName": "60岁",
+    "email": "age_60@test.com",
+    "password": "123456",
+    "phone": "15102654235",
+    "age": 60,
+    "userStatus": 1
+  },
+  {
+    "id": 1005,
+    "username": "boundary_age_121",
+    "firstName": "年龄",
+    "lastName": "121岁",
+    "email": "age_121@test.com",
+    "password": "123456",
+    "phone": "13716155940",
+    "age": 121,
+    "userStatus": 1
+  },
+  {
+    "id": 2001,
+    "username": "boundary_phone_1",
+    "firstName": "空手机号",
+    "lastName": "测试",
+    "email": "phone_1@test.com",
+    "password": "123456",
+    "phone": "",
+    "userStatus": 0
+  },
+  {
+    "id": 2002,
+    "username": "boundary_phone_2",
+    "firstName": "11位正常手机号",
+    "lastName": "测试",
+    "email": "phone_2@test.com",
+    "password": "123456",
+    "phone": "18678161849",
+    "userStatus": 0
+  },
+  {
+    "id": 2003,
+    "username": "boundary_phone_3",
+    "firstName": "12位超长手机号",
+    "lastName": "测试",
+    "email": "phone_3@test.com",
+    "password": "123456",
+    "phone": "138123456789",
+    "userStatus": 0
+  },
+  {
+    "id": 2004,
+    "username": "boundary_phone_4",
+    "firstName": "含字母手机号",
+    "lastName": "测试",
+    "email": "phone_4@test.com",
+    "password": "123456",
+    "phone": "138abc45678",
+    "userStatus": 0
+  },
+  {
+    "id": 2005,
+    "username": "boundary_phone_5",
+    "firstName": "9位过短手机号",
+    "lastName": "测试",
+    "email": "phone_5@test.com",
+    "password": "123456",
+    "phone": "123456789",
+    "userStatus": 0
+  },
+  {
+    "id": 3001,
+    "username": "a",
+    "firstName": "1位用户名",
+    "lastName": "测试",
+    "email": "username_1@test.com",
+    "password": "123456",
+    "phone": "18959310341",
+    "userStatus": 0
+  },
+  {
+    "id": 3002,
+    "username": "aaaaaaaaaaaaaaaaaaaa",
+    "firstName": "20位最大长度",
+    "lastName": "测试",
+    "email": "username_2@test.com",
+    "password": "123456",
+    "phone": "18131647525",
+    "userStatus": 0
+  },
+  {
+    "id": 3003,
+    "username": "aaaaaaaaaaaaaaaaaaaaa",
+    "firstName": "21位超限用户名",
+    "lastName": "测试",
+    "email": "username_3@test.com",
+    "password": "123456",
+    "phone": "15834192832",
+    "userStatus": 0
+  },
+  {
+    "id": 3004,
+    "username": "admin@#$%",
+    "firstName": "含特殊字符用户名",
+    "lastName": "测试",
+    "email": "username_4@test.com",
+    "password": "123456",
+    "phone": "18764835030",
+    "userStatus": 0
+  },
+  {
+    "id": 3005,
+    "username": "test user",
+    "firstName": "含空格用户名",
+    "lastName": "测试",
+    "email": "username_5@test.com",
+    "password": "123456",
+    "phone": "15356413953",
+    "userStatus": 0
+  },
+  {
+    "id": 4001,
+    "username": "boundary_email_1",
+    "firstName": "正常邮箱",
+    "lastName": "测试",
+    "email": "pqin@example.com",
+    "password": "123456",
+    "phone": "13842388496",
+    "userStatus": 0
+  },
+  {
+    "id": 4002,
+    "username": "boundary_email_2",
+    "firstName": "无@符号",
+    "lastName": "测试",
+    "email": "testexample.com",
+    "password": "123456",
+    "phone": "18996532871",
+    "userStatus": 0
+  },
+  {
+    "id": 4003,
+    "username": "boundary_email_3",
+    "firstName": "多个@符号",
+    "lastName": "测试",
+    "email": "test@@example.com",
+    "password": "123456",
+    "phone": "13301226916",
+    "userStatus": 0
+  },
+  {
+    "id": 4004,
+    "username": "boundary_email_4",
+    "firstName": "开头特殊字符",
+    "lastName": "测试",
+    "email": "-test@example.com",
+    "password": "123456",
+    "phone": "15997848018",
+    "userStatus": 0
+  },
+  {
+    "id": 4005,
+    "username": "boundary_email_5",
+    "firstName": "包含空格",
+    "lastName": "测试",
+    "email": "test user@example.com",
+    "password": "123456",
+    "phone": "13345146270",
+    "userStatus": 0
+  },
+  {
+    "id": 4006,
+    "username": "boundary_email_6",
+    "firstName": "纯数字邮箱",
+    "lastName": "测试",
+    "email": "123456",
+    "password": "123456",
+    "phone": "18648281489",
+    "userStatus": 0
+  }
+]
